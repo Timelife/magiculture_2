@@ -1,0 +1,9 @@
+#Wed Dec 19 13:24:00 EST 2018
+Coords.location=1
+Timer.visible=false
+Info.location=3
+Coords.visible=1
+Info.visible=0
+Timer.saved=00|00|00
+Timer.location=4
+Timer.running=false
