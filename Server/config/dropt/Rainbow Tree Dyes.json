@@ -1,0 +1,82 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "rainboaks:rainboak_leaves:*"
+          ]
+        }
+        },
+      "replaceStrategy": "ADD",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+        {
+        "selector": {
+			"weight": {
+            "value": 15
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+            "botania:dye:0",
+			"botania:dye:1",
+            "botania:dye:2",
+            "botania:dye:3",
+            "botania:dye:4",
+            "botania:dye:5",
+            "botania:dye:6",
+            "botania:dye:7",
+            "botania:dye:8",
+            "botania:dye:9",
+            "botania:dye:10",
+            "botania:dye:11",
+            "botania:dye:12",
+            "botania:dye:13",
+            "botania:dye:14",
+            "botania:dye:15"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+				}
+			}
+		},
+			
+		{
+        "selector": {
+			"weight": {
+            "value": 5
+				},
+			"silktouch": "EXCLUDED"
+            },
+        "item": {
+            "items": [
+				"minecraft:stick"
+				],
+			"quantity": {
+				"min": 1,
+				"max": 1
+				}
+			},
+		"xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		},
+			
+		{
+		"selector": {
+			"weight": {
+            "value": 80
+				  }
+				}
+			  }
+			]
+		}
+	]
+}

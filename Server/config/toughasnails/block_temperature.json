@@ -1,0 +1,74 @@
+[
+  {
+    "state": {
+      "block": "toughasnails:campfire",
+      "properties": {
+        "age": "*",
+        "burning": "true"
+      }
+    },
+    "temperature": 15.0
+  },
+  {
+    "state": {
+      "block": "minecraft:lit_furnace",
+      "properties": {
+        "facing": "*"
+      }
+    },
+    "temperature": 5.0
+  },
+  {
+    "state": {
+      "block": "minecraft:packed_ice",
+      "properties": {}
+    },
+    "temperature": -2.0
+  },
+  {
+    "state": {
+      "block": "minecraft:ice",
+      "properties": {}
+    },
+    "temperature": -1.0
+  },
+  {
+    "state": {
+      "block": "thermalfoundation:fluid_cryotheum",
+      "properties": {}
+    },
+    "temperature": -20.0
+  },
+  {
+    "state": {
+      "block": "thermalfoundation:fluid_pyrotheum",
+      "properties": {}
+    },
+    "temperature": 30.0
+  },
+  {
+    "state": {
+      "block": "minecraft:lava",
+      "properties": {
+        "level": "*"
+      }
+    },
+    "temperature": 20.0
+  },
+  {
+    "state": {
+      "block": "minecraft:flowing_lava",
+      "properties": {
+        "level": "*"
+      }
+    },
+    "temperature": 18.0
+  },
+  {
+    "state": {
+      "block": "minecraft:magma",
+      "properties": {}
+    },
+    "temperature": 7.0
+  }
+]

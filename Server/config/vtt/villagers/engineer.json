@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "vtt:engineer",
+		texture: "magiculture:textures/villagers/engineer.png",
+		zombieTexture: "magiculture:textures/villagers/engineer_zombie.png"
+	},
+	careers: [
+		"engineer"
+	]
+}

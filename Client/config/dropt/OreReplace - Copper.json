@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "immersiveengineering:ore:0",
+			"embers:ore_copper"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "geolosys:cluster:2"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 0,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

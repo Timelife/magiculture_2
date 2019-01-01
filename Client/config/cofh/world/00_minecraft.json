@@ -1,0 +1,192 @@
+{
+	"populate": {
+		
+		"silverfish": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "monster_egg",
+					"properties": {
+						"variant": "stone"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+							"mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"water_lake_underground": {
+			"distribution": "uniform",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:water",
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone",  "minecraft:sandstone", "minecraft:red_sandstone"],
+				"use-material": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 8,
+			"min-height": 24,
+			"max-height": 72,
+			"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone",  "minecraft:sandstone", "minecraft:red_sandstone"],
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"water_lake_surface": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:water",
+				"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+				],
+				"use-material": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 32,
+			"min-height": 50,
+			"max-height": 150,
+			"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+			],
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"spider_tree": {
+			"distribution": "uniform",
+			"follow-terrain": "true",
+			"generator": {
+				"type": "stalactite",
+				"block": "minecraft:web",
+				"material": [
+					{ 
+						"name": "minecraft:leaves"
+					},
+					{ 
+						"name": "minecraft:leaves2",
+						"metadata": 1
+					}
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					},
+					{ 
+						"name": "minecraft:leaves"
+					},
+					{ 
+						"name": "minecraft:leaves2",
+						"metadata": 1
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 1,
+				"height-mod": 2,
+				"gen-size": 1,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 60,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"roofed_forest"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": 
+				[
+					-1,
+					1
+				]
+			}
+		}
+		
+		
+	}
+}

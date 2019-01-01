@@ -1,0 +1,93 @@
+[
+  {
+    "identifier": "horde",
+    "enabled": true,
+    "entityBlacklist": ["ebwizardry:evil_wizard"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "vortex",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "arctic",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "desecrator",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 3
+  },
+  {
+    "identifier": "reflecting",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "jailer",
+    "enabled": true,
+    "entityBlacklist": ["minecraft:creeper"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "dampening",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "lively",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "infested",
+    "enabled": true,
+    "entityBlacklist": ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray", "quark:dweller", "quark:ashen", "minecraft:enderman"],
+    "alwaysOnEntity": [],
+    "tier": 3
+  },
+  {
+    "identifier": "hasty",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "shielding",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "molten",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "plagued",
+    "enabled": false,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  }
+]

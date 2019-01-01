@@ -1,0 +1,20 @@
+[
+    { "item": "appliedenergistics2:sky_compass", "dimensions": [ 0 ] },
+    { "item": "botania:manaring" },
+    { "item": "botania:manaringgreater" },
+    { "item": "botania:manatablet" },
+    { "item": "botania:slimebottle" },
+    { "item": "endercompass:ender_compass" },
+    { "item": "inventoryneko:neko" },
+    { "item": "minecraft:clock" },
+    { "item": "minecraft:compass" },
+    { "item": "mist:hygrometer", "dimensions": [ 69 ] },
+    { "item": "naturescompass:naturescompass" },
+    { "item": "quark:slime_bucket" },
+    { "item": "randomthings:goldencompass" },
+    { "item": "spectritemod:spectrite_compass" },
+    { "item": "inspirations:north_compass" },
+    { "item": "inspirations:barometer" },
+    { "item": "sereneseasons:season_clock" },
+    { "item": "toughasnails:thermometer" }
+]

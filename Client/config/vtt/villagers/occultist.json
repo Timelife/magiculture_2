@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "vtt:occultist",
+		texture: "magiculture:textures/villagers/occultist.png",
+		zombieTexture: "magiculture:textures/villagers/occultist_zombie.png"
+	},
+	careers: [
+		"occultist"
+	]
+}

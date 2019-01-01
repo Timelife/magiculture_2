@@ -1,0 +1,148 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+			
+		"pero_deep_lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type" : "lake",
+				"block": {
+					"name": "thermalfoundation:fluid_petrotheum",
+					"metadata": 0
+					},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"outline-block": ["minecraft:gravel"],
+				"use-material": true,
+				"cluster-size": 48
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 63,
+			"max-height": 63,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		},
+		
+		"pyro_nether_lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_pyrotheum",
+				"material": "minecraft:netherrack",
+				"use-material": true,
+				"outline-block": [
+					{
+					"name": "quark:biome_cobblestone",
+					"metadata": 0,
+					"weight": 3
+					},
+					{
+					"name": "minecraft:obsidian",
+					"metadata": 0,
+					"weight": 1
+					},
+					{
+					"name": "minecraft:magma",
+					"metadata": 0,
+					"weight": 2
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 15,
+			"min-height": 32,
+			"max-height": 64,
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		
+		"ender_end_lake": {
+			"distribution": "surface",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_ender",
+				"material": "minecraft:end_stone",
+				"gap-block": "minecraft:end_stone",
+				"use-material": true,
+				"outline-block": "minecraft:end_stone"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"min-height": 40,
+			"max-height": 80,
+			"material": "minecraft:end_stone",
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		
+		"snowy_cryo_lakes": {
+			"distribution": "uniform",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_cryotheum",
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone",  "minecraft:sandstone", "minecraft:red_sandstone"],
+				"use-material": true,
+				"outline-block": [
+					{
+					"name": "quark:biome_cobblestone",
+					"metadata": 1,
+					"weight": 3
+					},
+					{
+					"name": "minecraft:packed_ice",
+					"metadata": 0,
+					"weight": 1
+					}
+				]
+			},
+			"cluster-count": 2,
+			"chunk-chance": 24,
+			"min-height": 16,
+			"max-height": 48,
+			"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone",  "minecraft:sandstone", "minecraft:red_sandstone"],
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		
+		
+	}
+}

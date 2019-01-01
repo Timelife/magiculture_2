@@ -1,0 +1,198 @@
+{
+    "comment": "There aren't any magic weapons by default, but you can add
+                the items yourself here. For more info about how to edit 
+                this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": [
+        "mainhand",
+        "offhand"
+    ],
+    "whitelist": [
+	  {  
+        "item": "xreliquary:pyromancer_staff"
+      },
+	  {
+        "item": "xreliquary:glacial_staff"
+      },
+	  {
+        "item": "xreliquary:serpent_staff"
+      },
+	  {
+        "item": "xreliquary:handgun"
+      },
+	  {
+        "item": "xreliquary:ice_magus_rod"
+      },
+      {
+        "class": "ItemWand"
+      }
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "quality.inept.name",
+        "color": "dark_gray",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": -0.25,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.25,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.ineffective.name",
+        "color": "red",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": -0.10,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.10,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Warding",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          },
+		  {
+            "name": "potioncore.damageResistance",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Demonic",
+        "color": "yellow",
+        "weight": 3,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.50,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.50,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.damageResistance",
+            "amount": -0.25,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Swift",
+        "color": "blue",
+        "weight": 5,
+        "attributes": [
+		  {
+            "name": "generic.movementSpeed",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Annoying",
+        "color": "red",
+        "weight": 5,
+        "attributes": [
+		  {
+            "name": "generic.movementSpeed",
+            "amount": -0.07,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Mythical",
+        "color": "light_purple",
+        "weight": 2,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.30,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.30,
+            "operation": 2
+          },
+		  {
+            "name": "generic.movementSpeed",
+            "amount": 0.10,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "normal",
+        "weight": 50
+      },
+      {
+        "name": "quality.enhancing.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.15,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.mystical.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.25,
+            "operation": 2
+          },
+		  {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.25,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

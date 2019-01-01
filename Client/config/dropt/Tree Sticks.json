@@ -1,0 +1,66 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:leaves:*",
+			"minecraft:leaves2:*",
+			"traverse:red_autumnal_leaves:*",
+			"traverse:brown_autumnal_leaves:*",
+			"traverse:orange_autumnal_leaves:*",
+			"traverse:yellow_autumnal_leaves:*",
+			"traverse:fir_leaves:*",
+			"rustic:leaves:*",
+			"dynamictrees:leaves0",
+			"dynamictrees:leaves1",
+			"dynamictrees:oakbranch",
+			"dynamictrees:sprucebranch",
+			"dynamictrees:birchbranch",
+			"dynamictrees:junglebranch",
+			"dynamictrees:acaciabranch",
+			"dynamictrees:darkoakbranch",
+			"dynamictrees:greatwoodbranch",
+			"dynamictrees:silverwoodbranch",
+			"dynamictrees:firbranch"
+          ]
+        }
+        },
+      "replaceStrategy": "ADD",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+        {
+        "selector": {
+			"weight": {
+              "value": 5
+				},
+			"silktouch": "EXCLUDED"
+            },
+        "item": {
+            "items": [
+				"minecraft:stick"
+					],
+			"quantity": {
+				"min": 1,
+				"max": 1
+					}
+			},
+		"xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		},
+		{
+		"selector": {
+			"weight": {
+				"value": 95
+				}
+			}
+		}
+		]
+	}
+	]
+}

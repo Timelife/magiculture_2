@@ -1,0 +1,595 @@
+[
+  {
+    "comment": "This file contains custom reforging materials. By default, you can reforge
+                a tool with its repair item (like iron ingots for an iron sword), but some
+                items don't have a repair item, like bows. This adds items to reforge those.
+                It can also add an item for 'any', which will work for any item that can't be
+                reforged otherwise. For more info about how to add materials, visit:
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "tool": "any",
+    "material": {
+        "item": "contenttweaker:reforge_rune"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:bow"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:fishing_rod"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:wooden_hoe"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:stone_hoe"
+    },
+    "material": {
+        "ore_dict": "cobblestone"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:shears"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_hoe"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_horse_armor"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_ring"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_amulet"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "baubles:ring"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:tinyplanet"
+    },
+    "material": {
+        "ore_dict": "livingrock"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:manaring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:auraring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:magnetring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:waterring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:miningring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:swapring"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:dodgering"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:manaringgreater"
+    },
+    "material": {
+        "ore_dict": "ingotTerrasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:auraringgreater"
+    },
+    "material": {
+        "ore_dict": "ingotTerrasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:magnetringgreater"
+    },
+    "material": {
+        "ore_dict": "ingotTerrasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:flighttiara"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:pixiering"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:reachring"
+    },
+    "material": {
+        "ore_dict": "ingotElvenElementium"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:supertravelbelt"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:travelbelt"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:knockbackbelt"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:icependant"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:lavapendant"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:divacharm"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:itemfinder"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:travelbelt"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:holycloak"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:unholycloak"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:balancecloak"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:monocle"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:superlavapendant"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:cosmetic"
+    },
+    "material": {
+        "ore_dict": "manaString"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:bloodpendant"
+    },
+    "material": {
+        "ore_dict": "manaDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:invisibilitycloak"
+    },
+    "material": {
+        "ore_dict": "manaPearl"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:thorring"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:lokiring"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:odinring"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:cloudpendant"
+    },
+    "material": {
+        "ore_dict": "ingotManasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:supercloudpendant"
+    },
+    "material": {
+        "ore_dict": "eternalLifeEssence"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:thirdeye"
+    },
+    "material": {
+        "ore_dict": "manaDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:goddesscharm"
+    },
+    "material": {
+        "ore_dict": "manaDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "potionfingers:ring"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "botania:terraaxe"
+    },
+    "material": {
+        "ore_dict": "ingotTerrasteel"
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:fortune_coin"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:twilight_cloak"
+    },
+    "material": {
+        "item": "xreliquary:mob_ingredient",
+        "meta": 11
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:mob_charm_belt"
+    },
+    "material": {
+        "ore_dict": "leather"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemcrystalshovel"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemcrystalsword"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemcrystalaxe"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemcrystalpickaxe"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemchargedcrystalshovel"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemchargedcrystalsword"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemchargedcrystalaxe"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "astralsorcery:itemchargedcrystalpickaxe"
+    },
+    "material": {
+        "item": "astralsorcery:itemrockcrystalsimple"
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:rod_of_lyssa"
+    },
+    "material": {
+        "item": "xreliquary:mob_ingredient",
+        "meta": 7
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:pyromancer_staff"
+    },
+    "material": {
+        "item": "xreliquary:mob_ingredient",
+        "meta": 7
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:glacial_staff"
+    },
+    "material": {
+        "item": "xreliquary:mob_ingredient",
+        "meta": 10
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:serpent_staff"
+    },
+    "material": {
+        "item": "xreliquary:mob_ingredient",
+        "meta": 12
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:ice_magus_rod"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "xreliquary:handgun"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "combustfish:golden_rod"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  }
+]
